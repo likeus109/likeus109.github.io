@@ -59,10 +59,11 @@
     <form>
       <fieldset>
         <legend>도형 서식 입력</legend>
-        선종류<select>
+        선종류<input type="text" list="aa">
+        <datalist id="aa">
         <option value ="1">선없음</option>
         <option value ="2">실선</option>
-        <option value ="3">점선</option></select><br>
+        <option value ="3">점선</option></datelist><br>
         선두께<input type="number"><br>
         선색<input type="color"><br>
         투명도(0~100) : <input type="range" min:"0" max="100" list="temperatures">
